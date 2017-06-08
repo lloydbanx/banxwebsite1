@@ -1,0 +1,302 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/OpenSans-Regular-webfont.eot');
+    src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* basic site styles */
+
+body {
+	background-color: #e8e8e8;
+	background-image: url('../img/seigaiha.png');
+}
+
+#container {
+	width: 800px;
+	margin: 0 auto;
+	background-color: #fffff;
+}
+
+/* header styles */
+
+header {
+	background-color: pink;
+	background-image: url('../img/pexels-photo (2).jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px
+	width: 1366;
+	height: 200;
+}
+
+#logo {
+	background-image: url('../img/Sports-Meditation-Guru-icon.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 256;
+	height: 256;
+	text-indent: -9999px;
+	border: 0;
+	margin: 20px auto 10px auto;
+	padding: 150px
+}
+
+header h2 {
+	color: white;
+	font-family: 'Yesteryear', cursive;
+	text-align: center;
+	padding: 20px;
+	font-size: 6em;
+}
+
+/* navigation styles */
+nav {
+ 	width: 100%;
+ 	height: 35px;
+ 	font-size: 16px;
+ 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	font-weight: bold;
+	text-align: center;
+ 	background-color: #8AD9FF; /* fallback for older browsers */
+ 	background-color: rgba(138, 217, 255, 0.8);
+ }
+
+nav ul {
+	text-align: left;
+	display: inline;
+	margin: 0;
+	padding: 15px 4px 17px 0;
+	list-style: none;
+ }
+
+nav ul li {
+	display: inline-block;
+    margin-right: -4px;
+    position: relative;
+    padding: 15px 20px;
+    background-color: #00BCD4;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    -color: blue;
+}
+
+nav ul li:hover {
+	background: #4DD0E1;
+	color: green;
+}
+
+nav a {
+	color: #000;
+	padding: 10px;
+}
+
+nav a:hover {
+	color: #F90;
+	background-color: #FFF; 
+}
+ /* sub menu drop down style */
+
+nav ul li ul {
+	padding: 0;
+	position: absolute;
+	top: 48px;
+	left: 0;
+	width: 150px;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	transition: opacity 0.2s;
+}
+
+nav ul li ul li {
+	background: #00ACC1;
+	display: block;
+	color: #FFF;
+ }
+
+ nav ul li ul li:hover {
+ 	background-color: #4DD0E1;
+ }
+
+ naav ul li:hover ul{
+ 	display: block;
+ 	opacity: 1;
+ 	visibility: visible;
+ }
+ /* content section */
+
+ section {
+ 	font-family: verdana, arial, sans-serif;
+ 	font-size: 95%;
+ 	color: #000;
+ 	padding: 30px;
+
+ }
+ section h1,  section h2{
+ 	font-family: impact, sans-serif;
+ 	margin-bottom: 20px;
+ 	margin-top: 25px;
+
+ }
+
+ section h1 {
+ 	color: blue;
+ 	font-size: 3em;
+
+ }
+
+ footer {
+ 	width: 100%;
+ 	height: 35px;
+ 	font-size: 16px;
+ 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	font-weight: bold;
+ 	text-align: center;
+ 	background-color: #8AD9FF; /* fallback for older browsers */
+ 	background-color: rgba(138, 217, 255, 0.8)
+ }
+ 	
+ 
+
+footer ul {
+	height: auto;
+	padding: 8px 0;
+	margin: 0; 
+	list-style-type: none;
+}
+
+footer li {
+	display: inline;
+	padding: 20px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #000018;
+}
+
+footer a:hover {
+	color: #F90;
+	background-color: #FFF; 
+}
+
+footer small {
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	color: #000; 
+	line-height: 2em;
+}
+
+.horizon {
+	float: left;
+	margin-right: 15px;
+}
+.left{
+ float: left;
+ width: 600px;
+}
+.right{
+	background-color: #B8B8B8;
+	float: left;
+	width: 150px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/* making funky fonts work */
+
+p {
+	font-family: 'open_sansregular', "times new roman", "sans-serif";
+
+}
+
+.section h3 {
+	font-family: 'Amatic SC', cursive, verdana;
+	font-size: 2em;
+}
+
+.section h2 {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2em;
+}
+
+/* form stuff */
+ input {
+ 	display: block;
+ 	margin: 10px 0;
+ 	border-radius: 5px;
+ .totop {
+ 	background-color: blue;
+ 	width: 50px;
+ 	padding: 10px;
+ 	position: fixed;
+ 	right: 20px;
+ 	bottom: 10px;
+ }
+ }
+
+
+
